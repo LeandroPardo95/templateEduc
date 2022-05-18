@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+
+    <title>Software educativo</title>
+</head>
+<body>
+    
+    <nav>
+
+    </nav>
+
+    <main>
+        <section class="login">
+
+            <div class="form-login">
+
+                <div class="logo"></div>
+                <input type="text" placeholder="Usuario" required>
+                <input type="password" placeholder="Contraseña" required>
+
+                <button id="login" class="success">Ingresar</button>
+                <button class="register">Registrarme</button>
+
+                <a href="#">Olvidé mi contraseña</a>
+
+            </div>
+
+            <template id="form-register-1">
+                <div class="form-register">
+                    <div class="logo"></div>
+                    <h2>Ingrese sus datos:</h2>
+                    <input type="text" placeholder="Nombre completo">
+                    <input type="text" placeholder="Apellido/s">
+                    <input type="number" placeholder="DNI">
+                    <input type="date" placeholder="Fecha de nacimiento">
+
+                    <button class="success step-2">Siguiente</button>
+                    <button class="danger">Cancelar</button>
+                </div>
+            </template>
+
+            <template id="form-register-2">
+                <div class="form-register">
+                    <div class="logo"></div>
+                    <h2>Cree su usuario:</h2>
+                    <input type="text" placeholder="Nombre de usuario">
+                    <input type="password" placeholder="Constraseña">
+                    <input type="password" placeholder="Respita su contraseña">
+
+                    <button class="success" id="login">Finalizar registro</button>
+                    <button class="danger">Cancelar</button>
+                </div>
+            </template>
+
+        </section>
+        <h1>"dentro de la web"</h1>
+    </main>
+    <script src="js/index.js" type="module"></script>
+</body>
+</html>
