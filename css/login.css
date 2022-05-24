@@ -67,6 +67,10 @@
     color: #fff;
 }
 
+.login button:hover {
+    opacity: .9;
+}
+
 .form-login a {
     text-decoration: none;
     text-align: center;
